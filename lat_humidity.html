@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+        <span class="navbar-toggler-icon">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="nav-link" href="index.html">Home</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="#navbarSupportedContent">
+      <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarSupportedContent">
+  
+        <ul class="nav justify-content-end">
+          <li class="dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="lat_temperature.html">City Latitude vs. Max Temperature</a></li>
+              <li><a href="lat_humidity.html">City Latitude vs. Humidity</a></li>
+              <li><a href="lat_cloudiness.html">City Latitude vs. Cloudiness</a></li>
+              <li><a href="lat_windspeed.html">City Latitude vs. Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="comparisons.html"> Comparison </a></li>
+          <li><a class="nav-link" href="data.html">Data </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-8 pad top"> <br>
+
+        <h1>City Latitude vs. Humidity</h1> <br>
+
+          <div class="pull-left">
+            <img src="../Resources/assets/images/Fig2.png" alt="City Latitude vs. Humidity">
+          </div>
+
+        </div>
+
+        <div class="col-md-4 pad top"> <br>
+
+          <h3>Observations</h3> <br>
+
+            <div class="pull-right">
+              <p>On 01/05/2017, humidity was consistently higher in the tropics,
+                and lower north of the Tropic of Cancer, and south of the Tropic of Capricorn.
+                There appears to be some correlation between coastal locations and humidity;
+                humidity appears to be higher in coastal locations, and lower inland. </p>
+            </div>
+
+        </div> 
+
+    </div>
+
+  </div>
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </html>
